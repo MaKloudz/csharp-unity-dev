@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class State : MonoBehaviour {
+[CreateAssetMenu(menuName = "State")]
+public class State : ScriptableObject {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    [TextArea(14, 20)] [SerializeField] string storyText; 
+
+    public string GetStateStory()
+    {
+        return storyText;
+    }
 }
