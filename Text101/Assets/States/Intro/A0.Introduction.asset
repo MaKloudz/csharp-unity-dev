@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5992da0f2c3ddef4ca074084625c50fe, type: 3}
+  m_Name: A0.Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to this game
+
+
+    A choose your own adventure game.But be careful for what you wish for.
+
+
+    Press "1" to continue
+
+    Press "q" to quit'
+  nextStates:
+  - {fileID: 11400000, guid: 912716ef42fe77740bb19bad4bcf86a3, type: 2}

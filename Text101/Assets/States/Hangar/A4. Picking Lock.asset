@@ -9,9 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5992da0f2c3ddef4ca074084625c50fe, type: 3}
-  m_Name: Room 1
+  m_Name: A4. Picking Lock
   m_EditorClassIdentifier: 
-  storyText: I am in the first room
+  storyText: "You give it a good 10 minutes. No dice. Not going to happen.\r\n\r\nYou
+    do realise that you have no idea how to pick a lock right? You're an airship pilot,
+    not a common thief.\r\n\r\nSo what now?\r\n1. Fine, try to pry it."
   nextStates:
-  - {fileID: 11400000, guid: a4d058494ca7dcd4387b068ed17d643e, type: 2}
-  - {fileID: 11400000, guid: 912716ef42fe77740bb19bad4bcf86a3, type: 2}
+  - {fileID: 11400000, guid: 59bbbfb588c30154ca026d917c321109, type: 2}
